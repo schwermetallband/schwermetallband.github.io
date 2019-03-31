@@ -101,8 +101,8 @@ img.theBand {
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+	/*-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);*/
 }
 .sectionLogo {
 	display: inline-block;
@@ -172,8 +172,8 @@ img.theBand {
 	border-left: thin solid #c1c1c1;
 	border-top: thin solid #c1c1c1;
 	border-right: thin solid #c1c1c1;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+	/*-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);*/
 }
 .figText {
 	display: block;
