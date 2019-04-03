@@ -1,10 +1,6 @@
 @charset "utf-8";
 /*--- BODY ---*/
 /*--- general settings ---*/
-::-moz-selection {
-	color: #ffffff;
-	background: #000000;	
-}
 ::selection {
 	color: #ffffff;
 	background: #000000;
@@ -28,14 +24,6 @@ h1 {
 	text-align: center;
 }
 /*--- band logo and top navigation ---*/
-div.logo {
-	animation-name: logoTwist;
-	animation-duration: 1.5s;
-}
-@keyframes logoTwist {
-	0% {transform: rotateY(0deg);}
-	100% {transform: rotateY(360deg);}
-}
 img.bandlogo {
 	max-width: 60%;
 }
@@ -101,8 +89,8 @@ img.theBand {
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%) brightness(133%);
+	filter: grayscale(100%) brightness(133%);
 }
 .sectionLogo {
 	display: inline-block;
@@ -171,8 +159,8 @@ img.theBand {
 	border-left: thin solid #c1c1c1;
 	border-top: thin solid #c1c1c1;
 	border-right: thin solid #c1c1c1;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%) brightness(133%);
+	filter: grayscale(100%) brightness(133%);
 }
 .figText {
 	display: block;
@@ -181,7 +169,7 @@ img.theBand {
 	margin-right: auto;
 	padding: 0.35em;
 	max-width: 322px; /*equal size to image width*/
-	text-align: center-left;
+	text-align: left;
 	background-color: #ffffff;
 	border-left: thin solid #c1c1c1;
 	border-bottom: thin solid #c1c1c1;
@@ -258,7 +246,6 @@ h2 {
 	object-fit: cover;
 	margin-left: auto;
 	margin-right: auto;
-	transition: transform 0;
 	padding: 0.15em;
 	width: 10em;
 	height: 10em;
@@ -438,9 +425,6 @@ div.blackbottom {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
 	column-count: 2;
-	-webkit-column-width: 100%;
-	-moz-column-width: 100%;
-	column-width: 100%;
 }
 #copyright {
 	text-align: center;
