@@ -1,4 +1,4 @@
-//responsive top navigation depending on viewport
+//responsive top navigation depending on view port
 function respTopNav(){
 	var x = document.getElementById("topNavID");
 	if (x.className === "topNav"){
@@ -7,6 +7,7 @@ function respTopNav(){
 		x.className = "topNav";
 	}
 }
+
 //show band member by clicking
 var btnOpMbr = document.getElementsByClassName("btnOpenMember");
 

@@ -35,7 +35,6 @@ img.bandlogo {
 	background-color: #ffffff;
 }
 .topNav a {
-	/*float: left;*/
 	display: block;
 	color: #000000;
 	text-align: center;
@@ -472,7 +471,7 @@ a.navBarIcon.active:after {
 .topNav.responsive 
 a.navBarIcon {
 	position: absolute;
-	right: 100%;
+	margin-left: 93%;
 	float: right;
 	top: 0;
 }
@@ -488,7 +487,17 @@ a.navBarIcon {
 	width: 80%;  
 }
 }
+@media all and (max-width: 600px){
+.topNav.responsive 
+a.navBarIcon {
+	margin-left: 90%;
+}
+}
 @media all and (max-width: 420px){
+.topNav.responsive 
+a.navBarIcon {
+	margin-left: 85%;
+}
 #imageMbr { 
 	width: 99.5%;
 }
@@ -497,6 +506,10 @@ a.navBarIcon {
 	font-size: 0.85em;
 }
 @media all and (max-width: 360px){
+.topNav.responsive 
+a.navBarIcon {
+	margin-left: 84%;
+}
 #imageMbr { 
 	width: 100%;
 }
