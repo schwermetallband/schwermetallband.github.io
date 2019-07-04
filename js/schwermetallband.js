@@ -85,7 +85,11 @@ function showSlides(n) {
 		{slideIndex = 1}
 	else if (n === 36)
 		{slideIndex = 65}
-	else if (n > 65)
-		{slideIndex = 37}
+	else if (n === 66)
+		{slideIndex = 37}	
+	else if (n === 67)
+		{slideIndex = 90}	
+	else if (n > 90)
+		{slideIndex = 68}
     slides[slideIndex-1].style.display = "block";
 }
