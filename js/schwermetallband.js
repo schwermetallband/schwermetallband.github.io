@@ -21,6 +21,7 @@ for (var i = 0; i < btnOpMbr.length; i++) {
 		}
 	});
 }
+
 //close band member with X
 var clsMbr = document.getElementsByClassName("closeMember");
 for (var i = 0; i < clsMbr.length; i++) {	
@@ -29,6 +30,12 @@ for (var i = 0; i < clsMbr.length; i++) {
 		mdlMbr.style.display = "none";	
 	});
 }
+
+//close modal box of each band member by clicking anywhere
+function clsMdl(event) {
+	event.currentTarget.style.display = "none";
+}
+
 //band picture auto slideshow
 var bandPic = 0;
 carousel();
@@ -68,7 +75,7 @@ var slideIndex
 function flipSlide(n) { //1 or -1
     showSlides(slideIndex += n); 
 }
-//1-65
+//1-90
 function currentSlide(n) {
 	showSlides(slideIndex = n);
 }
