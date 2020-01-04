@@ -209,7 +209,7 @@ img.theBand {
 	width: 50%;  
 	text-align: center;
 }
-#fstRow {
+.upComing {
 	font-weight: bold;
 }
 th, td {
@@ -444,14 +444,6 @@ div.blackbottom {
 	top: 10em;
 }
 }
-/*
-@media all and (max-width: 1200px){
-
-}
-@media all and (max-width: 1000px){
-	
-}
-*/
 @media all and (max-width: 770px){
 .topNav a {
 	display: none;
