@@ -100,3 +100,11 @@ function showSlides(n) {
 		{slideIndex = 68}
     slides[slideIndex-1].style.display = "block";
 }
+//stops audio if other one is started
+var prevAudio;
+document.addEventListener('play', function(curAudio){
+    if(prevAudio && prevAudio != curAudio.target){
+        prevAudio.pause();
+    }
+    prevAudio = curAudio.target;
+}, true);
