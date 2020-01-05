@@ -293,7 +293,7 @@ h2 {
 .modalGallery {
 	position: relative;
 }
-#singlePicture {
+.singlePicture {
 	display: block;
 	position: fixed;
 	top: 50%;
@@ -435,7 +435,7 @@ div.blackbottom {
 }
 /*--- MEDIA SCREEN SETTINGS---*/
 @media all and (min-width: 1800px){
-#singlePicture {
+.singlePicture {
 	max-width: 1200px;
 	max-height: 850px;
 }
@@ -509,7 +509,7 @@ a.navBarIcon {
 .figText {
 	width: 100%; 
 }
-#singlePicture {
+.singlePicture {
 	max-width: 300px;
 }
 }
