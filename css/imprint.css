@@ -13,13 +13,13 @@
 	background: #ffffff;
 }
 header {
-	text-align: justify;
+	text-align: left;
 }
 body {
 	font-family: sans-serif;
 	margin: 0;
 	padding: 2em;
 	background-color: #ffffff;
-	text-align: justify;
+	text-align: left;
 }
 /*--- FOOTER ---*/
