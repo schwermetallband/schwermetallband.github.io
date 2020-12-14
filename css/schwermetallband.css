@@ -344,7 +344,7 @@ h2 {
 	z-index: 1;
 	color: #ffffff;
 }
-/*---  ---*/
+/*--- NO CONTENT  ---*/
 .noContent {
 	padding-bottom: 25.25em;
 }
@@ -353,31 +353,13 @@ footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	background-color: #c1c1c1;
+	background-color: #000000;
 	color: #c1c1c1;
 }
 .smLinks {
-	position: relative;
-	overflow: hidden;
-}
-.smLinks a {
-	text-decoration: none;
-	color: #c1c1c1;
-	font-size: 10px;
-}
-.smLinks a:hover {
-	color: #000000;
-}
-.scCenter {
-	float: none;
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
-}
-.ytRight {
 	float: right;
-	padding-right: 1em;
+	padding-top: 0.75em;
+	padding-right: 0.75em;
 }
 .fa {
     padding: 12px;
@@ -388,46 +370,26 @@ footer {
     border-radius: 50%;
 }
 .fa:hover {
-    color: #c1c1c1;
-	background-color: #000000;
+    color: #000000;
+	background-color: #c1c1c1;
 }
-.fa-facebook {
-	background: #c1c1c1;
-	color: #000000;
-}
-.fa-soundcloud {
-	background: #c1c1c1;
-	color: #000000;
-}
-.fa-youtube-play {
-	background: #c1c1c1;
-	color: #000000;
+.fa-soundcloud,
+.fa-youtube-play,
+.fa-facebook,
+.fa-spotify{
+	color: #c1c1c1;	
+	background: #262626;
 }
 a.linkContactImprint {
 	text-decoration: none;
 	color: #c1c1c1;
 }
 a.linkContactImprint:hover {
-	text-decoration: none;
-	text-shadow: 0 0 5px #ffffff;
-	box-shadow: 2px 0 15px #ffffff;
-	color: #ffffff;
+	text-decoration: underline;
 }
-div.blackbottom {
-	overflow: hidden;
-	background-color: #000000;
-	padding: 0;
+div.contImprCopyr {
 	font-size: 0.75em;
-	-webkit-column-count: 2;
-	-moz-column-count: 2;
-	column-count: 2;
-}
-#copyright {
-	text-align: center;
-}
-#contactImprint {
-	padding-top: 1em;
-	text-align: center;
+	padding-left: 1em;
 }
 /*--- MEDIA SCREEN SETTINGS---*/
 @media all and (min-width: 1800px){
