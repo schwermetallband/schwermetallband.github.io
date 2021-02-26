@@ -98,7 +98,7 @@ img.theBand {
 #sectLogo {
 	width: 45%;
 }
-#letter {
+.letter {
 	z-index: 1;
 	max-height: 3em;
 }
@@ -147,7 +147,7 @@ img.theBand {
 .figContent {
 	display: block;
 }
-#imageMbr { 
+.imageMbr { 
 	display: block;
 	position: relative;	
 	object-fit: cover;
@@ -171,7 +171,7 @@ img.theBand {
 	border-right: thin solid #c1c1c1;
 	box-shadow: 2.5px 5px 7.5px #c1c1c1 inset;
 }
-#mbrName {
+.mbrName {
 	position: absolute;
 	top: 0;	
 	left: 0.25em;
