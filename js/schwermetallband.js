@@ -87,17 +87,17 @@ function showSlides(n) {
         slides[i].style.display = "none";
     }		
 	if (n === 0) 
-		{slideIndex = 34}
-	else if (n === 35) 
+		{slideIndex = 15}
+	else if (n === 16) 
 		{slideIndex = 1}
-	else if (n === 36)
-		{slideIndex = 65}
-	else if (n === 66)
-		{slideIndex = 37}	
-	else if (n === 67)
-		{slideIndex = 90}	
-	else if (n > 90)
-		{slideIndex = 68}
+	else if (n === 17)
+		{slideIndex = 32}
+	else if (n === 33)
+		{slideIndex = 18}	
+	else if (n === 34)
+		{slideIndex = 49}	
+	else if (n > 49)
+		{slideIndex = 35}
     slides[slideIndex-1].style.display = "block";
 }
 //stops audio if other one is started
