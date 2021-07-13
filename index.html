@@ -39,7 +39,7 @@
 
 <header  id="home">
  <div class="logo">
-  <img class="bandlogo" src="../img/logoschwermetall.svg" alt="Band Logo">
+  <img class="bandlogo" id="smbLogo" src="../img/logoschwermetall.jpg" alt="Band Logo">
  </div>
  <nav class="topNav" id="topNavID">
   <a href="../html/en.html" onclick="respTopNav()" title="English">English</a>
@@ -49,6 +49,13 @@
   <a href="#gigs" onclick="respTopNav()" title="gigs">Live-Gigs</a>
   <a href="#pictures" onclick="respTopNav()" title="pictures">Bilder</a>
   <a class="navBarIcon" onclick="respTopNav()" title="open or close menu"><b>&#9776;</b></a>
+  <a class="darkmodeSwitch" onclick="respTopNav()" title="toggle dark mode">
+   <span>Hell/Dunkel</span>
+   <label class="switch" id="themeSwitch">
+    <input type="checkbox" id="togglelightdark" name="themeSwitch1" onclick="darkImg()">
+    <div></div>
+   </label>
+  </a>  
  </nav>
 </header>
 
@@ -170,12 +177,10 @@
 	</figure>
    </div>
   </div>
-  <div class="sectionLogo">
-   <img id="sectLogo" src="../img/logoschwermetall.svg" alt="Band Logo">
-  </div> 
+
   <div class="aboutUs">
   
-   <p><b><img class="letter" src="../img/G.svg" alt="G">ef&auml;hrliche Alchemie: </b>F&uuml;nf Zauberlehrlinge huldigen dem heiligen Song und 
+   <p><b><img class="letter" id="G" src="../img/G.svg" alt="G">ef&auml;hrliche Alchemie: </b>F&uuml;nf Zauberlehrlinge huldigen dem heiligen Song und 
    t&uuml;fteln in einem fensterlosen Raum an einer geheimnisvollen Mischung. Eine Prise 
    Heavy, ein Schuss Groove, nach Belieben Wahnsinn hinzuf&uuml;gen und bei hoher Proberaumtemperatur 
    kr&auml;ftig r&uuml;hren. Ergebnis ist ein hochkonzentriertes explosives Gebr&auml;u, die neue 
@@ -183,10 +188,10 @@
    Lyrik in deutscher Sprache wurden zusammengemixt zu einem kompromisslosen Cocktail, der ohne Hemmung 
    genossen werden kann, und das obwohl er richtig scheppert!
    </p> 
-   <p><b><img class="letter" src="../img/M.svg" alt="M">usik: </b>Deutschsprachiger Metal mit Groove, Punch und Melodie. Wir sind nicht 
+   <p><b><img class="letter" id="M" src="../img/M.svg" alt="M">usik: </b>Deutschsprachiger Metal mit Groove, Punch und Melodie. Wir sind nicht 
    die Schnellsten, B&ouml;sesten oder H&auml;rtesten. Wir machen einfach gute Musik!
    </p>
-   <p><b><img class="letter" src="../img/H.svg" alt="H">istorie: </b>Bandgr&uuml;ndung im Mai 2016. SCHWERMETALL ist geboren. Letzter Besetzungswechsel 
+   <p><b><img class="letter" id="H" src="../img/H.svg" alt="H">istorie: </b>Bandgr&uuml;ndung im Mai 2016. SCHWERMETALL ist geboren. Letzter Besetzungswechsel 
    im M&auml;rz 2017. Erster Auftritt im Januar 2018. Erste Studioaufnahmen zur EP im November 2018. Schwer online seit April 2019.
    Und die Geschichte hat erst begonnen...
    </p>

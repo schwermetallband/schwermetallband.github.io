@@ -32,6 +32,7 @@
  <link rel="stylesheet" type="text/css" href="../css/schwermetallband.css">
  
  <script src="../js/schwermetallband.js" charset="utf-8" async></script>
+ <script src="../js/ENdarkmode.js" charset="utf-8" async></script> 
  
 </head>
 
@@ -39,7 +40,7 @@
 
 <header  id="home">
  <div class="logo">
-  <img class="bandlogo" src="../img/logoschwermetall.svg" alt="Band Logo">
+  <img class="bandlogo" id="smbLogo" src="../img/logoschwermetall.jpg" alt="Band Logo">
  </div>
  <nav class="topNav" id="topNavID">
   <a href="../index.html" onclick="respTopNav()" title="German">Deutsch</a>
@@ -49,6 +50,13 @@
   <a href="#gigs" onclick="respTopNav()" title="gigs">Live-Gigs</a>
   <a href="#pictures" onclick="respTopNav()" title="pictures">Photos</a>
   <a class="navBarIcon" onclick="respTopNav()" title="open or close menu"><b>&#9776;</b></a>
+  <a class="darkmodeSwitch" onclick="respTopNav()" title="toggle dark mode">
+   <span>Light/Dark</span>
+   <label class="switch" id="themeSwitchEN">
+    <input type="checkbox" id="togglelightdark" name="themeSwitch1" onclick="darkImg()">
+    <div></div>
+   </label>
+  </a>  
  </nav>
 </header>
 
@@ -170,22 +178,20 @@
 	</figure>
    </div>
   </div>
-  <div class="sectionLogo">
-   <img id="sectLogo" src="../img/logoschwermetall.svg" alt="Band Logo">
-  </div> 
+
   <div class="aboutUs">
   
-   <p><b><img class="letter" src="../img/D.svg" alt="D">angerous alchemy: </b>Five sorcerer's apprentices pay 
+   <p><b><img class="letter" id="D" src="../img/D.PNG" alt="D">angerous alchemy: </b>Five sorcerer's apprentices pay 
    homage to the holy song and work on a mysterious concoction in a windowless room.  
    A pinch of heavy. A bit of groove. Add madness as desired and stir vigorously at high practice room temperature.
    The result is a highly concentrated explosive brew. The new metal formula, named "SCHWERMETALL".
    Heavy riffs, sophisticated rhythm and sharp lyrics sung in German language are mixed to a relentless cocktail,
    which can be enjoyed without any restraint.
    </p> 
-   <p><b><img class="letter" src="../img/M.svg" alt="M">usic: </b>Metal with groove, punch and melody sung in German language. 
+   <p><b><img class="letter" id="M" src="../img/M.PNG" alt="M">usic: </b>Metal with groove, punch and melody sung in German language. 
    We are not the fastest, most evil or heaviest band. We just play good music!
    </p>
-   <p><b><img class="letter" src="../img/H.svg" alt="H">istory: </b>The band was formed in May 2016. SCHWERMETALL was born. Last line-up changes 
+   <p><b><img class="letter" id="H" src="../img/H.PNG" alt="H">istory: </b>The band was formed in May 2016. SCHWERMETALL was born. Last line-up changes 
    in March 2017. First show played in January 2018. First recordings for the EP in November 2018. Website launched in April 2019.
    And the story has just begun...
    </p>

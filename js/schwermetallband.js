@@ -61,6 +61,7 @@ function showHideThumbs(m) {
       moreLess.style.display = "block";
     }
 }
+
 //open and close lightbox
 function openGallery(openCloseGal) {
     document.getElementById("pictureGallery"+openCloseGal).style.display = "block";
@@ -75,6 +76,7 @@ var slideIndex
 function flipSlide(n) { //1 or -1
     showSlides(slideIndex += n); 
 }
+
 //1-90
 function currentSlide(n) {
 	showSlides(slideIndex = n);
@@ -100,6 +102,7 @@ function showSlides(n) {
 		{slideIndex = 35}
     slides[slideIndex-1].style.display = "block";
 }
+
 //stops audio if other one is started
 var prevAudio;
 document.addEventListener('play', function(curAudio){
@@ -108,3 +111,13 @@ document.addEventListener('play', function(curAudio){
     }
     prevAudio = curAudio.target;
 }, true);
+
+//toggle darke mode
+document.getElementById('themeSwitch').addEventListener('change', function(event) {
+	(event.target.checked) ? document.body.setAttribute('data-theme', 'dark') : document.body.removeAttribute('data-theme');
+	(event.target.checked) ? document.getElementById('smbLogo').src='../img/logoschwermetall.dark.jpg' : document.getElementById('smbLogo').src='../img/logoschwermetall.jpg';
+	(event.target.checked) ? document.getElementById('G').src='../img/G.dark.PNG' : document.getElementById('G').src='../img/G.PNG';
+	(event.target.checked) ? document.getElementById('M').src='../img/M.dark.PNG' : document.getElementById('M').src='../img/M.PNG';
+	(event.target.checked) ? document.getElementById('H').src='../img/H.dark.PNG' : document.getElementById('H').src='../img/H.PNG';	
+	}
+);
