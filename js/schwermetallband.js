@@ -116,8 +116,8 @@ document.addEventListener('play', function(curAudio){
 document.getElementById('themeSwitch').addEventListener('change', function(event) {
 	(event.target.checked) ? document.body.setAttribute('data-theme', 'dark') : document.body.removeAttribute('data-theme');
 	(event.target.checked) ? document.getElementById('smbLogo').src='../img/logoschwermetall.dark.jpg' : document.getElementById('smbLogo').src='../img/logoschwermetall.jpg';
-	(event.target.checked) ? document.getElementById('G').src='../img/G.dark.PNG' : document.getElementById('G').src='../img/G.PNG';
-	(event.target.checked) ? document.getElementById('M').src='../img/M.dark.PNG' : document.getElementById('M').src='../img/M.PNG';
-	(event.target.checked) ? document.getElementById('H').src='../img/H.dark.PNG' : document.getElementById('H').src='../img/H.PNG';	
+	//(event.target.checked) ? document.getElementById('G').src='../img/G.dark.PNG' : document.getElementById('G').src='../img/G.PNG';
+	//(event.target.checked) ? document.getElementById('M').src='../img/M.dark.PNG' : document.getElementById('M').src='../img/M.PNG';
+	//(event.target.checked) ? document.getElementById('H').src='../img/H.dark.PNG' : document.getElementById('H').src='../img/H.PNG';	
 	}
 );
