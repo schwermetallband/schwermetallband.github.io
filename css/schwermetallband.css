@@ -46,7 +46,7 @@ h1 {
 /*--- band logo and top navigation ---*/
 
 img.bandlogo {
-	padding-top: 10%;
+	padding-top: 3%;
 	padding-bottom: 10%;
 	max-width: 60%;
 }
@@ -520,11 +520,11 @@ div.contImprCopyr {
 		margin-left: 85%;
 	}
 	.imageMbr { 
-		width: 99.5%;
+	max-width:	253px;
 	}
 	.figText {
-		width: 100%; 
-		font-size: 0.85em;
+		width: 100%;
+		font-size: 96.5%;
 	}
 }
 
@@ -533,12 +533,6 @@ div.contImprCopyr {
 	.topNav.responsive 
 	a.navBarIcon {
 		margin-left: 84%;
-	}
-	.imageMbr { 
-		width: 100%;
-	}
-	.figText {
-		width: 100%; 
 	}
 	.singlePicture {
 		max-width: 300px;
