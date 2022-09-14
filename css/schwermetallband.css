@@ -165,9 +165,6 @@ img.theBand {
 	margin-right: 5px;
 	float: left;
 }
-.allOfUs {
-	padding-top: 2.5em;
-}
 .aboutUs {
 	padding-left: 20%;
 	padding-right: 20%;
@@ -216,13 +213,13 @@ img.theBand {
 	border-top: thin solid #c1c1c1;
 	border-right: thin solid #c1c1c1;
 }
-.figText {
+.figText, .figTextTim {
 	display: block;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0.35em;
-	max-width: 322px; /*equal size to image width*/
+	max-width: 253px; /*equal size to image width*/
 	text-align: left;
 	color: #000;
 	background-color: #fff;
@@ -231,6 +228,7 @@ img.theBand {
 	border-right: thin solid #c1c1c1;
 	box-shadow: 2.5px 5px 7.5px #c1c1c1 inset;
 }
+.figTextTim {max-width: 320px;}
 .mbrName {
 	position: absolute;
 	top: 0;	

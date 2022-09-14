@@ -36,22 +36,6 @@ function clsMdl(event) {
 	event.currentTarget.style.display = "none";
 }
 
-//band picture auto slideshow
-var bandPic = 0;
-carousel();
-
-function carousel() {
-	var i;
-	var x = document.getElementsByClassName("theBand");
-	for (i = 0; i < x.length; i++) {
-		x[i].style.display = "none";  
-	}
-	bandPic++;
-	if (bandPic > x.length) {bandPic = 1}    
-	x[bandPic-1].style.display = "block";  
-	setTimeout(carousel, 5000); // Change image every 5 seconds
-}
-
 // show and hide thumbs 
 function showHideThumbs(m) {
     var moreLess = document.getElementById("hiddenThumbs"+m);
