@@ -1,6 +1,6 @@
 //responsive top navigation depending on view port
 function respTopNav(){
-	var x = document.getElementById("topNavID");
+	const x = document.getElementById("topNavID");
 	if (x.className === "topNav"){
 	x.className += " responsive";
 	} else {
@@ -9,11 +9,11 @@ function respTopNav(){
 }
 
 //show band member by clicking
-var btnOpMbr = document.getElementsByClassName("btnOpenMember");
+const btnOpMbr = document.getElementsByClassName("btnOpenMember");
 
 for (var i = 0; i < btnOpMbr.length; i++) {
 	btnOpMbr[i].addEventListener("click", function() {
-		var mdlMbr = this.nextElementSibling;
+		const mdlMbr = this.nextElementSibling;
 		if (mdlMbr.style.display === "block") {
 			mdlMbr.style.display = "none";
 		} else {
@@ -23,10 +23,10 @@ for (var i = 0; i < btnOpMbr.length; i++) {
 }
 
 //close band member with X
-var clsMbr = document.getElementsByClassName("closeMember");
-for (var i = 0; i < clsMbr.length; i++) {	
+const clsMbr = document.getElementsByClassName("closeMember");
+for (let i = 0; i < clsMbr.length; i++) {
 	clsMbr[i].addEventListener("click", function() {
-		var mdlMbr = this.parentElement;
+		const mdlMbr = this.parentElement;
 		mdlMbr.style.display = "none";	
 	});
 }
@@ -38,7 +38,7 @@ function clsMdl(event) {
 
 // show and hide thumbs 
 function showHideThumbs(m) {
-    var moreLess = document.getElementById("hiddenThumbs"+m);
+    const moreLess = document.getElementById("hiddenThumbs"+m);
     if (moreLess.style.display === "block") {
       moreLess.style.display = "none";
     } else {
@@ -55,7 +55,7 @@ function closeGallery(openCloseGal) {
     document.getElementById("pictureGallery"+openCloseGal).style.display = "none";
 }
 
-var slideIndex
+let slideIndex
 
 function flipSlide(n) { //1 or -1
     showSlides(slideIndex += n); 
@@ -67,9 +67,9 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-    var slides = document.getElementsByClassName("eachSlide");	
+    const slides = document.getElementsByClassName("eachSlide");
 
-    for (var i = 0; i < slides.length; i++) {
+    for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }		
 	if (n === 0) 
@@ -88,15 +88,15 @@ function showSlides(n) {
 }
 
 //stops audio if other one is started
-var prevAudio;
+let prevAudio;
 document.addEventListener('play', function(curAudio){
-    if(prevAudio && prevAudio != curAudio.target){
+    if(prevAudio && prevAudio !== curAudio.target){
         prevAudio.pause();
     }
     prevAudio = curAudio.target;
 }, true);
 
-//toggle darke mode
+// toggle dark mode
 document.getElementById('themeSwitch').addEventListener('change', function(event) {
 	(event.target.checked) ? document.body.setAttribute('data-theme', 'dark') : document.body.removeAttribute('data-theme');
 	}

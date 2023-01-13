@@ -49,6 +49,8 @@ img.bandlogo {
 	padding-top: 3%;
 	padding-bottom: 10%;
 	max-width: 60%;
+	width: 1933px;
+	height: 1088px;
 }
 .topNav {
 	top: 0;
@@ -68,8 +70,7 @@ img.bandlogo {
 	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background-color: #c1c1c1;
 }
-.topNav 
-.navBarIcon {
+.topNav .navBarIcon {
 	display: none;
 }
 
@@ -472,8 +473,7 @@ div.contImprCopyr {
 	.topNav a {
 		display: none;
 	}
-	.topNav
-	.navBarIcon {
+	.topNav .navBarIcon {
 		float: right;
 		display: block;
 	}
@@ -485,8 +485,7 @@ div.contImprCopyr {
 		float: right;
 		width: 100%;
 	}
-	.topNav.responsive 
-	a.navBarIcon {
+	.topNav.responsive a.navBarIcon {
 		position: absolute;
 		margin-left: 93%;
 		float: right;
@@ -507,16 +506,14 @@ div.contImprCopyr {
 
 @media all and (max-width: 600px){
 	
-	.topNav.responsive 
-	a.navBarIcon {
+	.topNav.responsive a.navBarIcon {
 		margin-left: 90%;
 	}
 }
 
 @media all and (max-width: 420px){
 	
-	.topNav.responsive 
-	a.navBarIcon {
+	.topNav.responsive a.navBarIcon {
 		margin-left: 85%;
 	}
 	.imageMbr { 
@@ -530,8 +527,7 @@ div.contImprCopyr {
 
 @media all and (max-width: 360px){
 	
-	.topNav.responsive 
-	a.navBarIcon {
+	.topNav.responsive a.navBarIcon {
 		margin-left: 84%;
 	}
 	.singlePicture {
