@@ -35,7 +35,6 @@ body {
 }
 header {
 	text-align: center;
-	width: 100%;
 }
 a, button, span, label, img.solImage, .mp3player {
 	cursor: url('../img/metalhand.cur'), pointer;
@@ -44,20 +43,15 @@ h1 {
 	text-align: center;
 }
 
-.logo {
-	width: 100%;
-}
-
 /*--- band logo and top navigation ---*/
 
 img.bandlogo {
 	padding-top: 3%;
 	padding-bottom: 10%;
 	max-width: 60%;
-	height: 1088px;
-	aspect-ratio: 1933 / 1088;
 	object-fit: contain;
 }
+
 .topNav {
 	top: 0;
     overflow: hidden;
