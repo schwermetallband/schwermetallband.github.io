@@ -49,9 +49,8 @@ img.bandlogo {
 	padding-top: 3%;
 	padding-bottom: 10%;
 	max-width: 60%;
-	width: 1933px;
-	height: 1088px;
 	object-fit: contain;
+	aspect-ratio: auto 1933 / 1088;
 }
 .topNav {
 	top: 0;
