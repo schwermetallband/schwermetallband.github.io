@@ -35,12 +35,17 @@ body {
 }
 header {
 	text-align: center;
+	width: 100%;
 }
 a, button, span, label, img.solImage, .mp3player {
 	cursor: url('../img/metalhand.cur'), pointer;
 }
 h1 {
 	text-align: center;
+}
+
+.logo {
+	width: 100%;
 }
 
 /*--- band logo and top navigation ---*/
