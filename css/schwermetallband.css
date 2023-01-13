@@ -132,7 +132,9 @@ img.bandlogo {
 	display: inline-block;
 }
 #epfg {
-	width: 100%;
+	width: 351px;
+	height: 346px;
+	object-fit: contain;
 }
 .songs {
 	display: inline-block;
