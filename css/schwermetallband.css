@@ -51,6 +51,7 @@ img.bandlogo {
 	max-width: 60%;
 	width: 1933px;
 	height: 1088px;
+	object-fit: scale-down;
 }
 .topNav {
 	top: 0;
