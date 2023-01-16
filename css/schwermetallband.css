@@ -132,6 +132,7 @@ img.bandlogo {
 	display: inline-block;
 }
 #epfg {
+	aspect-ratio: 351 / 346;
 	object-fit: contain;
 }
 .songs {
