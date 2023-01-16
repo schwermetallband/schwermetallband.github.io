@@ -49,7 +49,7 @@ img.bandlogo {
 	padding-top: 3%;
 	padding-bottom: 10%;
 	max-width: 60%;
-	aspect-ratio: 1933 / 1088;
+	aspect-ratio: auto 1933 / 1088;
 	object-fit: contain;
 }
 
@@ -132,7 +132,7 @@ img.bandlogo {
 	display: inline-block;
 }
 #epfg {
-	aspect-ratio: 351 / 346;
+	aspect-ratio: auto 351 / 346;
 	object-fit: contain;
 }
 .songs {
