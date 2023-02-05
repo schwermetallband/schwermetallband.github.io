@@ -45,11 +45,14 @@ h1 {
 
 /*--- band logo and top navigation ---*/
 
-img.bandlogo {
+.logo {
 	padding-top: 3%;
 	padding-bottom: 10%;
+}
+
+img.bandlogo {
+	aspect-ratio: auto 1933 / 1088;
 	max-width: 60%;
-	object-fit: contain;
 }
 
 .topNav {
@@ -131,15 +134,17 @@ img.bandlogo {
 	display: inline-block;
 }
 #epfg {
+	aspect-ratio: auto 351 / 346;
 	object-fit: contain;
+	max-width: 100%;
 }
 .songs {
 	display: inline-block;
 }
 .mp3player {
 	height: 1.5em;
-	width: 100%;
 	border-radius: 4px;
+	max-width: 100%;
 }
 
 /*--- band ---*/
