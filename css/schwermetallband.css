@@ -78,44 +78,6 @@ img.bandlogo {
 	display: none;
 }
 
-/*--- dark mode switch within top navigation ---*/
-
-.switch input {
-	display: none;
-}
-.switch {
-	padding: 0; 
-	position: relative;
-	display: inline-block;
-}
-.switch input+div {
-	width: 3.23em;
-	border-radius: 666px;
-	background: #c1c1c1;
-	padding: 0.25em;
-}
-.switch input+div:hover {
-	background: var(--body-color);
-}
-.switch input+div::before {
-	content: '';
-	display: block;
-	height: 1.2em;
-	width: 1.2em;
-	border-radius: 666px;
-	background: var(--font-color);
-	transform: translateX(0);
-	transition: transform 0.2s;
-}
-.switch input:checked+div::before {
-	transform: translateX(1.5em);
-}
-
-.darkmodeSwitch .switch {
-    vertical-align: bottom;
-    margin: -5px 1.5px;
-}
-
 /*--- music ---*/
 
 .music {
