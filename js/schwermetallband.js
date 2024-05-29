@@ -1,5 +1,8 @@
 //responsive top navigation depending on view port
 function respTopNav(){
+	const icon = document.querySelector(".navBarIcon i");
+	icon.classList.toggle("fa-bars");
+	icon.classList.toggle("fa-times");
 	const x = document.getElementById("topNavID");
 	if (x.className === "topNav"){
 	x.className += " responsive";
@@ -95,9 +98,3 @@ document.addEventListener('play', function(curAudio){
     }
     prevAudio = curAudio.target;
 }, true);
-
-// toggle dark mode
-document.getElementById('themeSwitch').addEventListener('change', function(event) {
-	(event.target.checked) ? document.body.setAttribute('data-theme', 'dark') : document.body.removeAttribute('data-theme');
-	}
-);

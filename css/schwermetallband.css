@@ -444,19 +444,25 @@ div.contImprCopyr {
 	.topNav .navBarIcon {
 		float: right;
 		display: block;
+		padding: 5px;
 	}
-	a.navBarIcon.active:after {
-		content: "X";
-	}
+
 	.topNav.responsive {
 		position: fixed;
 		float: right;
 		width: 100%;
 	}
 	.topNav.responsive a.navBarIcon {
+		padding: 5px;
+		display: block;
 		position: absolute;
-		margin-left: 93%;
-		float: right;
+		right: 0;
+		top: 0;
+	}
+	a.navBarIcon {
+		height: 3em;
+	}
+	i.navBarIcon{
 		top: 0;
 	}
 	.topNav.responsive a {
