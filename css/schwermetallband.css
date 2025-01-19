@@ -383,16 +383,14 @@ footer {
     width: 2.25em;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
 }
 .fa:hover {
-    color: #000;
+	color: #000;
 	background-color: #c1c1c1;
 }
-.fa-soundcloud,
-.fa-youtube-play,
-.fa-facebook,
-.fa-spotify {
+.fa-spotify,
+.fa-amazon,
+.fa-apple {
 	color: #c1c1c1;	
 	background: #262626;
 }
